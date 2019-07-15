@@ -1,0 +1,15 @@
+sudo: false
+language: node_js
+node_js:
+  - "10.15"
+cache:
+  directories:
+    - node_modules
+install:
+  - yarn install
+script:
+  - npm run test:unit -- -u
+before_install:
+  - gem install bundler --pre
+after_success:
+  - npm run coveralls
