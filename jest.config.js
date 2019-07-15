@@ -1,4 +1,10 @@
 module.exports = {
+  clearMocks: true,
+  collectCoverage: true,
+  collectCoverageFrom: ['src/**/*.{js,vue}'],
+  coverageDirectory: 'coverage',
+  coveragePathIgnorePatterns: ['/node_modules/', '/coverage/', '/src/main.js'],
+  testPathIgnorePatterns: ['/tests/e2e/'],
   moduleFileExtensions: [
     'js',
     'jsx',
