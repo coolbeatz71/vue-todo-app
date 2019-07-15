@@ -1,0 +1,22 @@
+{
+  "root": true,
+  "env": {
+    "node": true,
+    "jest": true,
+    "mocha": true,
+    "cypress/globals": true
+  },
+  "extends": [
+    "plugin:vue/essential",
+    "@vue/airbnb",
+  ],
+  "rules": {
+    "strict": "off",
+  },
+  "parserOptions": {
+    "parser": "babel-eslint",
+  },
+  "plugins": [
+    "cypress",
+  ],
+}

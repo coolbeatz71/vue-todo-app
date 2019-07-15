@@ -9,7 +9,7 @@
     "test:e2e": "vue-cli-service test:e2e",
     "test:unit": "vue-cli-service test:unit",
     "test:unit-watch": "vue-cli-service test:unit --watch",
-    "coveralls": "jest --detectOpenHandles --coverage  && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
+    "coveralls": "npm run test:unit --detectOpenHandles --coverage  && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
   },
   "dependencies": {
     "core-js": "^2.6.5",
