@@ -12,6 +12,7 @@
   ],
   "rules": {
     "strict": "off",
+    "no-shadow": "off"
   },
   "parserOptions": {
     "parser": "babel-eslint",
