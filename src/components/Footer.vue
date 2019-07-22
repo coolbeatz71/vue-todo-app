@@ -1,5 +1,5 @@
 <template>
-  <v-footer height="auto" dark>
+  <v-footer v-pre height="auto" dark>
     <v-card class="flex" flat tile>
       <v-card-title class="pink">
         <strong class="subheading">

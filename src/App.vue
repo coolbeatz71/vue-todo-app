@@ -55,7 +55,6 @@ export default {
         if (newValue === true) {
           this.isLoading = true;
         }
-
         if (oldValue === true) {
           this.isLoading = false;
         }
@@ -69,7 +68,6 @@ export default {
 <style lang="scss">
 .progress-container {
   height: 10px;
-
   .progress-bar {
     margin-top: 65px;
   }

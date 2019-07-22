@@ -25,12 +25,12 @@
             </v-card-title>
           </v-flex>
           <v-flex shrink>
-            <v-btn color="info" fab @click="onUpdateTodo(todo)" outline large>
+            <v-btn color="info" class="btn-update" fab @click="onUpdateTodo(todo)" outline large>
               <v-icon>check</v-icon>
             </v-btn>
           </v-flex>
           <v-flex shrink>
-            <v-btn color="error" fab @click="onDelTodo(todo.id)" outline large>
+            <v-btn class="btn-delete" color="error" fab @click="onDelTodo(todo.id)" outline large>
               <v-icon>delete_sweep</v-icon>
             </v-btn>
           </v-flex>

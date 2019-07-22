@@ -3,7 +3,7 @@ module.exports = {
   collectCoverage: true,
   collectCoverageFrom: ['src/**/*.{js,vue}'],
   coverageDirectory: 'coverage',
-  coveragePathIgnorePatterns: ['/node_modules/', '/coverage/', '/src/main.js'],
+  coveragePathIgnorePatterns: ['/node_modules/', '/coverage/', '/src/main.js', '/src/plugins/'],
   testPathIgnorePatterns: ['/tests/e2e/'],
   moduleFileExtensions: [
     'js',

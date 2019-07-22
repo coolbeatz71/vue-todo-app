@@ -4,8 +4,7 @@ import URL from '../../environment';
 
 export const state = {
   loading: false,
-  todos: [
-  ],
+  todos: [],
 };
 
 export const getters = {
