@@ -1,5 +1,11 @@
 <template>
-  <v-select @change="onFilterTodos" label="Select Filter" :items="items" outline></v-select>
+  <v-select
+    class="select-filter"
+    @change="onFilterTodos"
+    label="Select Filter"
+    :items="items"
+    outline
+  ></v-select>
 </template>
 
 <script>
